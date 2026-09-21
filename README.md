@@ -20,17 +20,17 @@ Technologies
     Power BI
 
 ## About the Dataset
-The dataset consists of 3,900 rows of customer data and 19 columns. The columns are in following categories :-
+The dataset consists of 3,900 rows of customer data and 18 columns. The columns are in following categories :-
     i) Customer Demographics – Age, Gender, Location, Subscription Status 
     ii) Purchase Details – Item Purchased, Purchase Amount (USD), Season, Size, Color, Category 
-    iii) Shopping Behavior – Discount Applied, Promo Code Used, Previous Purchases, Frequency of Purchases, Review Rating,       Shipping Type
+    iii) Shopping Behavior – Discount Applied, Promo Code Used, Previous Purchases, Frequency of Purchases, Review Rating,                Shipping Type, Payment Behavior
 
 ## Workflow
     Exploratory Data Analysis (EDA) using Python -> Structured Analysis using SQL -> Data Visualization -> Recommendations
 
 ## EDA using Python
   1. Data Loading and Initial Exploration- Imported the dataset into Python and checked the structure and summary statistics with       .info() and .describe() using Pandas.
-  2. Handling Missing Values - Checked for null values present in the Review Rating column and imputed them using the median.
+  2. Handling Missing Values - Checked for null values present in the Review Rating column and imputed them using the median rating     for each product category.
   3. Standardized the Column Names - Converted the column names to snake case. (Eg- Purchase Amount(USD) -> purchase_amount).
   4. Feature Engineering - Created 2 new columns, age_group and purchase_freq_days.
   5. Redundancy Check - Checked for duplicates within the data, there weren't any.
@@ -65,5 +65,5 @@ The dataset consists of 3,900 rows of customer data and 19 columns. The columns 
   1. Better Subscription Plans – Improve the subscription plan, give better benefits to encourage more people to get subscriptions.
   2.  Incentives for Loyal Customers – Introduce some kind of incentives for returning customers to move them into the “Loyal”           category.
   3. Best Seller Products – Promote the best-selling/ highest rated products in marketing campaigns.
-  4. Targeted Marketing – Focus on the highest revenue age groups and express-shipping users.
+  4. Targeted Marketing – Revenue is spread evenly across age groups and shipping types, so marketing does not need to favor one over   another. Segment by purchase history and subscription status instead.
 
