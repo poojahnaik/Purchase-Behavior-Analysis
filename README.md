@@ -68,4 +68,4 @@ The dataset consists of 3,900 rows of synthetic customer data and 18 columns. Th
   4. Targeted Marketing – Revenue is spread evenly across age groups and shipping types, so marketing does not need to favor one over   another. Segment by purchase history and subscription status instead.
 
 ## Credit 
-This project was built by following a tutorial by Amlan Mhanti (video link :- https://youtu.be/5PrZvPeUw60?si=7WVK0D0ornY2rfg9). Used AI to slightly change the values within the dataset, and changed the color palette used.
+This project was built by following a tutorial by Amlan Mohanty (video link :- https://youtu.be/5PrZvPeUw60?si=7WVK0D0ornY2rfg9). Used AI to slightly change the values within the dataset, and changed the color palette used.
