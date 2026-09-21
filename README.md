@@ -33,7 +33,7 @@ The dataset consists of 3,900 rows of synthetic customer data and 18 columns. Th
   2. Handling Missing Values - Checked for null values present in the Review Rating column and imputed them using the median rating     for each product category.
   3. Standardized the Column Names - Converted the column names to snake case. (Eg- Purchase Amount(USD) -> purchase_amount).
   4. Feature Engineering - Created 2 new columns, age_group and purchase_freq_days.
-  5. Redundancy Check - Checked for duplicates within the data, there weren't any.
+  5. Redundancy Check - Found that the discount_applied and promo_code_used columns were identical, so dropped promo_code_used.
   6. Database Connection - Connected to PostgreSQL and Loaded the cleaned dataframe into it for further analysis.
 
 ## Structured Analysis using PostgreSQL
