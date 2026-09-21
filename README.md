@@ -20,7 +20,7 @@ Technologies
     Power BI
 
 ## About the Dataset
-The dataset consists of 3,900 rows of customer data and 18 columns. The columns are in following categories :-
+The dataset consists of 3,900 rows of synthetic customer data and 18 columns. The columns are in following categories :-
     i) Customer Demographics – Age, Gender, Location, Subscription Status 
     ii) Purchase Details – Item Purchased, Purchase Amount (USD), Season, Size, Color, Category 
     iii) Shopping Behavior – Discount Applied, Promo Code Used, Previous Purchases, Frequency of Purchases, Review Rating,                Shipping Type, Payment Behavior
