@@ -50,7 +50,8 @@ The dataset consists of 3,900 rows of synthetic customer data and 18 columns. Th
     10. Revenue contribution by age group
 
 ## Dashboard
-<img width="439" height="268" alt="Screenshot 2026-09-19 002804" src="https://github.com/user-attachments/assets/b52e4690-18e4-4bc6-832d-42e242f0a18a" />
+<img width="438" height="268" alt="Screenshot 2026-09-20 023141" src="https://github.com/user-attachments/assets/94a76a85-68cf-451e-aab4-bca7b759f8c1" />
+
 
 ## Key Findings
   1. Revenue by gender: male customers generated $156,157 versus $73,605 for female customers, about 68% of total revenue.
